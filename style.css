@@ -1,0 +1,57 @@
+#timeline {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+}
+
+.slot {
+    width: 150px;
+    height: 200px;
+    border: 2px dashed #ccc;
+}
+
+#images img {
+    width: 150px;
+    height: 200px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.slot img {
+    width: 150px; /* Set the width to fit your design */
+    height: 200px; /* Maintain aspect ratio */
+    /* You can also use 'max-width' and 'max-height' instead to ensure images don't exceed a certain size */
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Keeps elements vertically centered */
+    align-items: center;
+    height: 90vh; /* Reducing height will move content up */
+}
+
+.button-container {
+    margin-top: -100px;
+}
+
+.button {
+    background-color: #0492C2; /* Green */
+    border: none;
+    color: Pink;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 0 10px; /* Space between buttons */
+}
+
+body {
+    background-image: url('dreamhouse.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

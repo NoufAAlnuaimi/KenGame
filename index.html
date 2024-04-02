@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Your HTML content goes here -->
+
+<script src="script.js"></script>
+</body>
+</html>
+<head>
+<script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="timeline">
+    <div class="slot" data-slot="1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="slot" data-slot="2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="slot" data-slot="3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="slot" data-slot="4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="slot" data-slot="5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="slot" data-slot="6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="slot" data-slot="7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  
+ 
+</div>
+
+<div id="images">
+    <img id="Ken4" src="Ken4.jpg" draggable="true" ondragstart="drag(event)" data-match="6">
+    <img id="Ken1" src="Ken1.jpg" draggable="true" ondragstart="drag(event)" data-match="1">
+    <img id="Ken3" src="Ken3.jpg" draggable="true" ondragstart="drag(event)" data-match="5">
+    <img id="Ken2" src="Ken2.jpg" draggable="true" ondragstart="drag(event)" data-match="4">
+    <img id="Ken5" src="Ken5.jpeg" draggable="true" ondragstart="drag(event)" data-match="2">
+    <img id="Ken6" src="Ken6.jpg" draggable="true" ondragstart="drag(event)" data-match="3">
+    <img id="Ken7" src="Ken7.jpeg" draggable="true" ondragstart="drag(event)" data-match="7">
+    <!-- Add more images as needed -->
+</div>
+
+<div class="content-container">
+    <!-- Other content here -->
+    <div class="button-container">
+        <button onclick="checkOrder()" class="button">Check Order</button>
+    </div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
